@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Parcel build output
+dist/
+.parcel-cache/
+
+.DS_Store

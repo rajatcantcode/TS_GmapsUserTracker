@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-screen w-screen">
+    <div id="main" class="bg-zinc-900 text-white flex items-center justify-center h-screen w-full relative">
+        <h1 id="locationInfo" class="absolute top-[5%] text-red-500">Pls Wait 🙃 we are Tracking your location</h1>
+        <div id="map" class="w-[75%] h-[75%]"></div>
+    </div>
+    <!-- Google Maps API -->
+    <!-- My google api - (IzaSyBaZSXyMji8x0KN6WOjHzHZryUrvu-ABio)-->
+    <!-- This FREE api won't be working on development because the admin has restricted it -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU"></script>
+    <script type="module" src="./src/index.ts"></script>
+
+</body>
+
+</html>
